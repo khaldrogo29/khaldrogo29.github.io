@@ -8,6 +8,21 @@ body {
 
   overflow-x: hidden;
 }
+#top {
+    font-family: 'Creepster';font-size: 40 px;
+}
+        
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Annie Use Your Telescope';
+  text-shadow: 2px 2px red;
+  text-transform: uppercase;
+  font-weight: 700;
+}
 p {
   font-size: 20px;
 }
@@ -289,6 +304,16 @@ section.success {
 }
 form .row:first-child .floating-label-form-group {
   border-top: 1px solid #eeeeee;
+}
+#frm1{
+  text-align:center;
+  padding : 5px;  
+}
+.frm1_in{
+  font-size : 18px;
+  background-color:#1BEAF4;
+  text-decoration : underline;
+  padding-right : 10px;
 }
 footer {
   color: white;
