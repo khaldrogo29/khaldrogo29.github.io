@@ -11,12 +11,10 @@
 
     <title>Khal-Drogo</title>
     
-    <script type = "text/javascript">
-        function alertfn() {
-         alert("Your response is sent. Thankyou for you suggestions");
-        }
-    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="js/khaldrogo_main.js"></script>
     
+   
 
     <!-- Bootstrap Core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -171,10 +169,10 @@
         <h3> P.s.: Please Please do not spam. </h3>
     <br>   
     <form id = "frm1" action="mailto:gangal.chinmay@gmail.com" method="post" enctype="text/plain" >
-        <h4 class = "frm1_in"> Your Name: </h4> <input type="text" name="Name"> <br>
-        <h4 class = "frm1_in"> Email: </h4> <input type="text" name="Email"> <br>
-        <h4 class = "frm1_in"> Your feedback </h4> <textarea name="comment" form="frm1">Enter text here...</textarea> <br><br>
-       <input type="submit" name="submit" value="Submit" onclick = "alertfn()">
+        <h4 class = "frm1_in"> Your Name: </h4> <input type="text" name="Name" class = "txt_in"> <br>
+        <h4 class = "frm1_in"> Email: </h4> <input type="text" name="Email" class = "txt_in"> <br>
+        <h4 class = "frm1_in"> Your feedback </h4> <textarea name="comment" form="frm1" class = "txt_in">Enter text here...</textarea> <br><br>
+       <input type="submit" name="submit" value="Submit" onclick = "alertfn()" id = "submit_btn">
     </form>
     </section>
 
